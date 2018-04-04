@@ -32,7 +32,7 @@ def estimate(text):
     elif minutes < 60:
         time = '{} min'.format(round(minutes))
     else:
-        if time // 60 == 1:
+        if minutes // 60 == 1:
             end = ''
         else:
             end = 's'
